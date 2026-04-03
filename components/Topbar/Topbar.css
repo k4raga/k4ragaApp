@@ -1,0 +1,58 @@
+.topbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 50;
+  background: rgba(12,12,14,0.88);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+.topbar-logo {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid rgba(212,0,0,0.3);
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+.topbar-name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 22px;
+  letter-spacing: 4px;
+  color: var(--red);
+}
+.topbar-nav {
+  display: flex;
+  gap: 6px;
+}
+.topbar-link {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  transition: all .3s;
+}
+.topbar-link:hover,
+.topbar-link.active {
+  color: var(--white);
+  background: var(--red-dim);
+  border-color: rgba(212,0,0,0.2);
+}
+@media (max-width: 560px) {
+  .topbar-nav { display: none; }
+}
