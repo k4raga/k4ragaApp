@@ -126,3 +126,7 @@ npm run build
 - Данные тренировки лежат отдельно от UI.
 - Интерфейс можно менять без переписывания контентной модели.
 - Приватные операционные заметки и release-архивы не входят в публичное описание проекта.
+
+## License
+
+This repository is public for reference and portfolio review. No open-source license is granted; see [`LICENSE.md`](./LICENSE.md).

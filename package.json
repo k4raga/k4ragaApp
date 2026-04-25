@@ -1,7 +1,17 @@
 {
   "name": "k4raga",
   "version": "1.0.0",
+  "description": "Next.js hub for K4RAGA with a CS training builder and FACEIT watch screen.",
   "private": true,
+  "license": "UNLICENSED",
+  "homepage": "https://k4raga.ru/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k4raga/k4ragaApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/k4raga/k4ragaApp/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
