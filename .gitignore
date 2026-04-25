@@ -16,3 +16,6 @@ pnpm-debug.log*
 dist/
 build/
 out/
+*.tar.gz
+*.tgz
+*.private.md
